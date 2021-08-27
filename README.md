@@ -1,0 +1,2 @@
+# fage.io
+my blog
