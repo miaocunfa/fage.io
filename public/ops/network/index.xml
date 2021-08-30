@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>network on Hugo Zzo Theme</title>
+    <link>http://localhost:1818/ops/network/</link>
+    <description>Recent content in network on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>i@miaocf.com (fage)</managingEditor>
+    <webMaster>i@miaocf.com (fage)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 17 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1818/ops/network/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>OpenVPN使用tcp协议</title>
+        <link>http://localhost:1818/ops/network/openvpn%E4%BD%BF%E7%94%A8tcp%E5%8D%8F%E8%AE%AE/</link>
+        <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+        <author>i@miaocf.com (fage)</author>
+        <atom:modified>Mon, 17 Aug 2020 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1818/ops/network/openvpn%E4%BD%BF%E7%94%A8tcp%E5%8D%8F%E8%AE%AE/</guid>
+        <description>1、复制 conf 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 # openvpn 的 systemd Unit ➜ cat /usr/lib/systemd/system/openvpn@.service [Unit] Description=OpenVPN Robust And Highly Flexible Tunneling Application On %I</description>
+        
+        <dc:creator>fage</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>OpenVPN</category>
+            
+          
+        
+        
+          
+            
+              <category>技术</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>OpenVPN吊销证书不生效</title>
+        <link>http://localhost:1818/ops/network/openvpn%E5%90%8A%E9%94%80%E8%AF%81%E4%B9%A6%E4%B8%8D%E7%94%9F%E6%95%88/</link>
+        <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+        <author>i@miaocf.com (fage)</author>
+        <atom:modified>Tue, 23 Jun 2020 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1818/ops/network/openvpn%E5%90%8A%E9%94%80%E8%AF%81%E4%B9%A6%E4%B8%8D%E7%94%9F%E6%95%88/</guid>
+        <description>1、查看哪些证书被吊销 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 ➜ cd /etc/openvpn/easy-rsa/3/pki ➜ openssl crl -in crl.pem -text -noout Certificate Revocation List (CRL): Version 2 (0x1) Signature</description>
+        
+        <dc:creator>fage</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>OpenVPN</category>
+            
+          
+        
+        
+          
+            
+              <category>技术</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>使用OpenVPN进行内网穿透与公网穿透</title>
+        <link>http://localhost:1818/ops/network/%E4%BD%BF%E7%94%A8openvpn%E8%BF%9B%E8%A1%8C%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8E%E5%85%AC%E7%BD%91%E7%A9%BF%E9%80%8F/</link>
+        <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+        <author>i@miaocf.com (fage)</author>
+        <atom:modified>Mon, 23 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1818/ops/network/%E4%BD%BF%E7%94%A8openvpn%E8%BF%9B%E8%A1%8C%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8E%E5%85%AC%E7%BD%91%E7%A9%BF%E9%80%8F/</guid>
+        <description>首先讲一下使用OpenVPN能给我们带来什么 1、内网穿透是说你回到家中，通过开辟一条加密隧道，直接在家里访问公司内网，跟你在公司访问内部服务</description>
+        
+        <dc:creator>fage</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>OpenVPN</category>
+            
+          
+            
+              <category>内网穿透</category>
+            
+          
+            
+              <category>公网穿透</category>
+            
+          
+            
+              <category>加密隧道</category>
+            
+          
+        
+        
+          
+            
+              <category>技术</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

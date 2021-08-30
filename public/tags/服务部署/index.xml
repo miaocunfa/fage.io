@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>服务部署 on Hugo Zzo Theme</title>
+    <link>http://localhost:1818/tags/%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/</link>
+    <description>Recent content in 服务部署 on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>i@miaocf.com (fage)</managingEditor>
+    <webMaster>i@miaocf.com (fage)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1818/tags/%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>部署使用elassandra</title>
+        <link>http://localhost:1818/ops/deploy/%E9%83%A8%E7%BD%B2elassandra/</link>
+        <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+        <author>i@miaocf.com (fage)</author>
+        <atom:modified>Thu, 02 Jan 2020 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1818/ops/deploy/%E9%83%A8%E7%BD%B2elassandra/</guid>
+        <description>一、环境准备 1 2 3 4 $ wget https://github.com/strapdata/elassandra/releases/download/v6.2.3.22/elassandra-6.2.3.22.tar.gz $ tar -zxvf elassandra-6.2.3.22.tar.gz $ useradd elassandra $ chown -R elassandra:elassandra elassandra-6.2.3.22 二、配置部署 2.1、目录结构 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 $ su - elassandra #切换用户 $ cd /opt/elassandra-6.2.3.22 #进</description>
+        
+        <dc:creator>fage</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>elasticsearch</category>
+            
+          
+            
+              <category>Cassandra</category>
+            
+          
+            
+              <category>elassandra</category>
+            
+          
+            
+              <category>搜索引擎</category>
+            
+          
+            
+              <category>服务部署</category>
+            
+          
+        
+        
+          
+            
+              <category>技术</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>源码编译安装 PostgreSQL 12</title>
+        <link>http://localhost:1818/ops/deploy/%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85postgresql12/</link>
+        <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+        <author>i@miaocf.com (fage)</author>
+        <atom:modified>Fri, 08 Nov 2019 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1818/ops/deploy/%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85postgresql12/</guid>
+        <description>一、环境准备 1 2 3 4 5 6 7 # 创建组和用户 groupadd postgre useradd -g postgre -G postgre -d /home/postgresql postgre # 修改用户密码 passwd postgre # web2019+ # 安装依赖包 [root@jiexian /home/postgresql]# yum install -y bzip2 readline-devel zlib-devel 二、源码包下载 1 2 [root@jiexian ~]#cd /home/postgresql/ [root@jiexian /home/postgresql]# wget</description>
+        
+        <dc:creator>fage</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>PostgreSQL</category>
+            
+          
+            
+              <category>数据库</category>
+            
+          
+            
+              <category>服务部署</category>
+            
+          
+        
+        
+          
+            
+              <category>技术</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

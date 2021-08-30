@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>docker on Hugo Zzo Theme</title>
+    <link>http://localhost:1818/tags/docker/</link>
+    <description>Recent content in docker on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>i@miaocf.com (fage)</managingEditor>
+    <webMaster>i@miaocf.com (fage)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1818/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Zabbix 监控docker容器</title>
+        <link>http://localhost:1818/ops/monitor/zabbix%E7%9B%91%E6%8E%A7docker%E5%AE%B9%E5%99%A8/</link>
+        <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+        <author>i@miaocf.com (fage)</author>
+        <atom:modified>Mon, 15 Mar 2021 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1818/ops/monitor/zabbix%E7%9B%91%E6%8E%A7docker%E5%AE%B9%E5%99%A8/</guid>
+        <description>更新记录 时间 内容 2021-03-15 初稿 软件版本 soft Version zabbix server 4.0.21 zabbix agent 4.0.29 ansible 2.9.17 一、Zabbix agent 1.1、zabbix agent 配置 ➜ vim /etc/zabbix/zabbix_agentd.d/docker.conf UserParameter=docker.discovery,python3 /etc/zabbix/scripts/docker_monitor.py UserParameter=docker.[*],python3 /etc/zabbix/scripts/docker_monitor.py $1 $2 1.2、python 监控脚本</description>
+        
+        <dc:creator>fage</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>zabbix</category>
+            
+          
+            
+              <category>告警</category>
+            
+          
+            
+              <category>docker</category>
+            
+          
+        
+        
+          
+            
+              <category>技术</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

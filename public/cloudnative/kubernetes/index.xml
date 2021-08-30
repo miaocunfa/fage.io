@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Kubernetes on Hugo Zzo Theme</title>
+    <link>http://localhost:1818/cloudnative/kubernetes/</link>
+    <description>Recent content in Kubernetes on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>i@miaocf.com (fage)</managingEditor>
+    <webMaster>i@miaocf.com (fage)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1818/cloudnative/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Kubernetes之etcd操作</title>
+        <link>http://localhost:1818/cloudnative/kubernetes/kubernetes%E4%B9%8Betcd%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+        <author>i@miaocf.com (fage)</author>
+        <atom:modified>Wed, 15 Jul 2020 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1818/cloudnative/kubernetes/kubernetes%E4%B9%8Betcd%E6%93%8D%E4%BD%9C/</guid>
+        <description>更新记录 时间 内容 2020-07-15 初稿 2020-07-21 编译etcdhelper 2020-07-23 完成图床的替换 环境 Server Version etcdctl 3.3.15 API 3.3 一、概述 etcd 是一个响应快、分布式、一致的 key-value 存储 二、操作 2.1、</description>
+        
+        <dc:creator>fage</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Kubernetes</category>
+            
+          
+            
+              <category>容器化</category>
+            
+          
+            
+              <category>etcd</category>
+            
+          
+        
+        
+          
+            
+              <category>技术</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

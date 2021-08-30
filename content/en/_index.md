@@ -25,9 +25,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - HUGO
+      - fage
     subtitle:
-      - The world’s fastest framework for building websites
+      - 日月逝矣, 岁不我与.
     titleColor: 
     titleShadow: true
     titleFontSize: 44

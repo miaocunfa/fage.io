@@ -5,16 +5,48 @@
   weight = 1
 
 [[main]]
-  identifier = "about"
-  name = "关于"
-  url = "about"
+  identifier = "cloudnative"
+  name = "云原生"
+  url = "cloudnative"
   weight = 2
 
 [[main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "posts"
+  parent = "cloudnative"
+  name = "kubernetes"
+  url = "cloudnative/kubernetes"
+
+[[main]]
+  identifier = "ops"
+  name = "运维"
+  url = "ops"
   weight = 3
+
+[[main]]
+  parent = "ops"
+  name = "监控系统"
+  url = "ops/monitor"
+
+[[main]]
+  parent = "ops"
+  name = "服务部署"
+  url = "ops/deploy"
+
+[[main]]
+  parent = "ops"
+  name = "网络"
+  url = "ops/network"
+
+[[main]]
+  parent = "ops"
+  name = "自动化"
+  url = "ops/devops"
+
+[[main]]
+  identifier = "about"
+  name = "关于"
+  url = "about"
+  weight = 4
+
 
 #[[main]]
 #  identifier = "presentation"
