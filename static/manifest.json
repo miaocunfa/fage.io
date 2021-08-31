@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Hugo Zzo theme",
-  "short_name": "Hugo Zzo theme",
+  "name": "fage's Blog",
+  "short_name": "fage's Blog",
   "version": "1.0.0",
   "default_locale": "cn",
   "description": "Hugo blog theme with rich features",

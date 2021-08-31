@@ -63,8 +63,8 @@ typeIcon = "🎯"
 myname = "fage"
 email = "i@miaocf.com"
 whoami = "DevOps"
-bioImageUrl = "https://cdn.jsdelivr.net/gh/miaocunfa/imghosting/img/miaocunfa.jpg"
-useGravatar = true
+bioImageUrl = ""   # https://cdn.jsdelivr.net/gh/miaocunfa/imghosting/img/miaocunfa.jpg
+useGravatar = false
 location = "ShanDong, QingDao"
 organization = ""
 link = "http://fage.io"
@@ -92,7 +92,7 @@ enableSidebarPostsByOrder = false
 showPoweredBy = true
 showFeedLinks = true
 showSocialLinks = true
-enableLangChange = true
+enableLangChange = false
 enableThemeChange = true
 
 # service
@@ -177,7 +177,7 @@ commento = false
   stack-exchange = ""
   telegram = ""
   steam = ""
-  weibo = ""
+  #weibo = "https://weibo.com/3946267550/profile?rightmod=1&wvr=6&mod=personinfo"
   douban = ""
   csdn = ""
   gitlab = ""
@@ -193,18 +193,18 @@ commento = false
   google-scholar = ""
 
 [donationOptions]
-  enable = false
-  alipay = "" 
-  wechat = ""
+  enable = true
+  alipay = "images/donation/alipay-1.png" 
+  wechat = "images/donation/wechat-1.png"
   paypal = ""
   patreon = ""
 
 # possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
-[[share]]
-  name = "facebook"
-  username = ""
-[[share]]
-  name = "twitter"
+#[[share]]
+#  name = "facebook"
+#  username = ""
+#[[share]]
+#  name = "twitter"
 
 [[footerLinks]]
   name = ""
