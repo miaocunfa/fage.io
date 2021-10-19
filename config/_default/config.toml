@@ -1,5 +1,5 @@
-baseURL = "http://localhost:1313"
-title = "Hugo Zzo Theme"
+baseURL = "http://fage.io"
+title = "fage's Blog"
 theme = "zzo"
 
 defaultContentLanguage = "en"
